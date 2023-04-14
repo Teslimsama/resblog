@@ -22,7 +22,7 @@
 					<div class="subscribe-main text-left">
 							<div class="subscribe-form">
 									<form action="#" method="post" class="subscribe_form">
-										<input class="form-control" type="email" placeholder="Enter your email..." required="">
+										<input class="form-control" type="email" name="email" placeholder="Enter your email..." required="">
 										<button type="submit" class="btn btn-primary submit">Submit</button>
 									</form>
 									<div class="clearfix"> </div>

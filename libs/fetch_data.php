@@ -206,8 +206,8 @@ function countcategories(){
 				$getcatcount=$rowcountcategory;
 			}
 					# code...show data
-			echo '<li class="list-group-item d-flex justify-content-between align-items-center">
-			'.$categorydata['name'].'
+			echo '<li class="list-group-item d-flex justify-content-between align-items-center"><a class="dropdown-item" href="category.php?id=' . $categorydata['id'] . '">
+			'.$categorydata['name'].'</a>
 			<span class="badge badge-success badge-pill">'.$rowcountcategory.'</span>
 			</li>';
 		}

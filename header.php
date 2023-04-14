@@ -3,8 +3,10 @@
 		<div class="top-bar_sub_w3layouts container-fluid">
 			<div class="row">
 				<div class="col-md-4 logo text-left">
-					<a class="navbar-brand" href="index.php">
-						<i class="fab fa-linode"></i> BLOG SITE</a>
+					<a class="" href="index.php">
+						<img class="w-50" src="images/the-daily-blend-high-resolution-logo-color-on-transparent-background.png" alt="">
+						<!-- <img src="images/the-daily-blend-high-resolution-logo-white-on-transparent-background.png" alt=""> -->
+						<!-- <i class="fab fa-linode"></i> BLOG SITE</a> -->
 				</div>
 				<div class="col-md-4 top-forms text-center mt-lg-3 mt-md-1 mt-0">
 					<span>Welcome Back!</span>
@@ -82,7 +84,7 @@
 
 						</ul>
 							<form action="search.php" method="post" class="form-inline my-2 my-lg-0 header-search" name="form">
-								<input class="form-control mr-sm-2" type="search" placeholder="Search here..." required="yes" type="text" name="search[keyword]">
+								<input class="form-control mr-sm-0" type="search" placeholder="Search here..." required="yes" type="text" name="search[keyword]">
 								<button class="btn btn1 my-2 my-sm-0" type="submit" name="submit"><i class="fas fa-search"></i></button>
 							</form>
 		
